@@ -1,11 +1,11 @@
-#Project Overview
+# Project Overview
 The purpose of this project was to simulate a ride scheduling app similar to that of Uber
 or Lyft. The project uses drones as the vehicles for the rides and robots as the riders. Throughout
 the simulation the drones’ batteries drain and they have to fly to one of the five stations to
 recharge them. The simulation can be viewed with a 3d visualization and trips can be scheduled
 through a html interface.
 
-##Running the Simulation
+## Running the Simulation
 To run the simulation first clone the repository. 
 Next make sure to install the Makefile extention. 
 Once in the project directory build the project with: 
@@ -18,7 +18,7 @@ replaced with the port number you used when starting the simulation. This is the
 interface for the simulation. In order to schedule trips open up a second tab and navigate to
 http://127.0.0.1:<port>/schedule.html.
 
-###Simulation Overview
+### Simulation Overview
 Schedule
 On the scheduling page found at http://127.0.0.1:<port>/schedule.html you can schedule
 trips for robots as well as add helicopters and UFOs to the simulation.
