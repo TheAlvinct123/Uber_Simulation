@@ -1,0 +1,4 @@
+<map id="BatteryDecorator" name="BatteryDecorator">
+<area shape="rect" id="node1" title="BatteryDecorator class used to to give battery behavior to IEntities." alt="" coords="5,95,140,121"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Abstract controller class used in the Transit Service. Uses the Model View Controller Pattern." alt="" coords="41,5,105,32"/>
+</map>

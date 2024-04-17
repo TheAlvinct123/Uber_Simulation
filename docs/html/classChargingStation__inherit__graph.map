@@ -1,0 +1,4 @@
+<map id="ChargingStation" name="ChargingStation">
+<area shape="rect" id="node1" title="ChargingStation class used to represent Charging Station in simulation." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Abstract controller class used in the Transit Service. Uses the Model View Controller Pattern." alt="" coords="37,5,101,32"/>
+</map>

@@ -1,0 +1,125 @@
+\hypertarget{classDijkstraStrategy}{}\doxysection{Dijkstra\+Strategy Class Reference}
+\label{classDijkstraStrategy}\index{DijkstraStrategy@{DijkstraStrategy}}
+
+
+this class inherits from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is responsible for generating the Dijkstra Strategy that the drone will take.  
+
+
+
+
+{\ttfamily \#include $<$Dijkstra\+Strategy.\+h$>$}
+
+
+
+Inheritance diagram for Dijkstra\+Strategy\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{classDijkstraStrategy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Dijkstra\+Strategy\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{classDijkstraStrategy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDijkstraStrategy_acdfffc5f1d32914d4e3944640e11e50e}{Dijkstra\+Strategy}} (\mbox{\hyperlink{classVector3}{Vector3}} position, \mbox{\hyperlink{classVector3}{Vector3}} destination, const I\+Graph $\ast$graph)
+\begin{DoxyCompactList}\small\item\em Constructor of \mbox{\hyperlink{classDijkstraStrategy}{Dijkstra\+Strategy}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDijkstraStrategy_af08fa6818642996f8a188a6162bc034f}{$\sim$\+Dijkstra\+Strategy}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of \mbox{\hyperlink{classDijkstraStrategy}{Dijkstra\+Strategy}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDijkstraStrategy_a24e0177f55b69a6b2260b0a0e2ce4430}{Move}} (\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$entity, double dt)
+\begin{DoxyCompactList}\small\item\em Moves Entity using Dijkstra Strategy. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classDijkstraStrategy_a409569a22f38028431ce25522d355ee2}{Is\+Completed}} ()
+\begin{DoxyCompactList}\small\item\em Determines if trip is complete. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+this class inherits from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is responsible for generating the Dijkstra Strategy that the drone will take. 
+
+include 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDijkstraStrategy_acdfffc5f1d32914d4e3944640e11e50e}\label{classDijkstraStrategy_acdfffc5f1d32914d4e3944640e11e50e}} 
+\index{DijkstraStrategy@{DijkstraStrategy}!DijkstraStrategy@{DijkstraStrategy}}
+\index{DijkstraStrategy@{DijkstraStrategy}!DijkstraStrategy@{DijkstraStrategy}}
+\doxysubsubsection{\texorpdfstring{DijkstraStrategy()}{DijkstraStrategy()}}
+{\footnotesize\ttfamily Dijkstra\+Strategy\+::\+Dijkstra\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{position,  }\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{destination,  }\item[{const I\+Graph $\ast$}]{graph }\end{DoxyParamCaption})}
+
+
+
+Constructor of \mbox{\hyperlink{classDijkstraStrategy}{Dijkstra\+Strategy}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & Entity\textquotesingle{}s position. \\
+\hline
+{\em destination} & Entity\textquotesingle{}s destination. \\
+\hline
+{\em graph} & Graph used to navigate in simulation. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDijkstraStrategy_af08fa6818642996f8a188a6162bc034f}\label{classDijkstraStrategy_af08fa6818642996f8a188a6162bc034f}} 
+\index{DijkstraStrategy@{DijkstraStrategy}!````~DijkstraStrategy@{$\sim$DijkstraStrategy}}
+\index{````~DijkstraStrategy@{$\sim$DijkstraStrategy}!DijkstraStrategy@{DijkstraStrategy}}
+\doxysubsubsection{\texorpdfstring{$\sim$DijkstraStrategy()}{~DijkstraStrategy()}}
+{\footnotesize\ttfamily Dijkstra\+Strategy\+::$\sim$\+Dijkstra\+Strategy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor of \mbox{\hyperlink{classDijkstraStrategy}{Dijkstra\+Strategy}}. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDijkstraStrategy_a409569a22f38028431ce25522d355ee2}\label{classDijkstraStrategy_a409569a22f38028431ce25522d355ee2}} 
+\index{DijkstraStrategy@{DijkstraStrategy}!IsCompleted@{IsCompleted}}
+\index{IsCompleted@{IsCompleted}!DijkstraStrategy@{DijkstraStrategy}}
+\doxysubsubsection{\texorpdfstring{IsCompleted()}{IsCompleted()}}
+{\footnotesize\ttfamily bool Dijkstra\+Strategy\+::\+Is\+Completed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Determines if trip is complete. 
+
+\begin{DoxyReturn}{Returns}
+Whether trip is complete (true) or not (false). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIStrategy_a13c6048efd232b696db5f35000d5b106}{I\+Strategy}}.
+
+\mbox{\Hypertarget{classDijkstraStrategy_a24e0177f55b69a6b2260b0a0e2ce4430}\label{classDijkstraStrategy_a24e0177f55b69a6b2260b0a0e2ce4430}} 
+\index{DijkstraStrategy@{DijkstraStrategy}!Move@{Move}}
+\index{Move@{Move}!DijkstraStrategy@{DijkstraStrategy}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Dijkstra\+Strategy\+::\+Move (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$}]{entity,  }\item[{double}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Moves Entity using Dijkstra Strategy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Entity that needs to be moved. \\
+\hline
+{\em dt} & Rate of change. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classIStrategy_a69254389f4ef9a851dc5d40c4cc9aacd}{I\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/wencl010/\+Code/csci-\/3081w-\/f22/\+Team-\/001-\/11-\/homework04/libs/transit/include/Dijkstra\+Strategy.\+h\item 
+/home/wencl010/\+Code/csci-\/3081w-\/f22/\+Team-\/001-\/11-\/homework04/libs/transit/src/Dijkstra\+Strategy.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,284 @@
+\hypertarget{classCar}{}\doxysection{Car Class Reference}
+\label{classCar}\index{Car@{Car}}
+
+
+Represents a car in a physical system. Cars move randomly using the beeline strategy.  
+
+
+
+
+{\ttfamily \#include $<$Car.\+h$>$}
+
+
+
+Inheritance diagram for Car\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classCar__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Car\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classCar__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCar_aacc367d50839385178ef2540b1cab3a5}{Car}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{classCar}{Car}} entity. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCar_a5933bb06e96b159fe339a128abda888a}\label{classCar_a5933bb06e96b159fe339a128abda888a}} 
+\mbox{\hyperlink{classCar_a5933bb06e96b159fe339a128abda888a}{$\sim$\+Car}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classCar}{Car}} entity. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classCar_a4fb5c6e642d6a70d3a9fcc1012d4e561}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Returns \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s speed. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classCar_a15bfb55a579f0a11f18fa339680baece}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s position. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classCar_ab75977e98e1265cd6dd391dfe3203886}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s direction. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classCar_aac2af3568b3baa238a55f9142598c24d}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s destination. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classCar_a86b73d3cd225d9d28e8c33e42e572a5d}{Get\+Details}} () const
+\begin{DoxyCompactList}\small\item\em Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s details. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCar_aa9dde801228bdec170224a31f4b66b34}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Updates the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCar_a73dfbd1e8575d4bcae8581b7abfdd99a}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCar_ad50dda9150d3e00185be0997277e940b}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s direction. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCar_ac3f99ecb6c9ff631414987032320446d}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s destination. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCar_aedbab19a18563e11d57fa593e5162df1}{Car}} (const \mbox{\hyperlink{classCar}{Car}} \&car)=delete
+\begin{DoxyCompactList}\small\item\em Removing the copy constructor so cars can\textquotesingle{}t be copied. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCar}{Car}} \& \mbox{\hyperlink{classCar_a090e9a581dbfc749505eea0ec67fa6c7}{operator=}} (const \mbox{\hyperlink{classCar}{Car}} \&car)=delete
+\begin{DoxyCompactList}\small\item\em Removing the assignment operator so cars can\textquotesingle{}t be copied. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Represents a car in a physical system. Cars move randomly using the beeline strategy. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCar_aacc367d50839385178ef2540b1cab3a5}\label{classCar_aacc367d50839385178ef2540b1cab3a5}} 
+\index{Car@{Car}!Car@{Car}}
+\index{Car@{Car}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{Car()}{Car()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Car\+::\+Car (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+Constructor for \mbox{\hyperlink{classCar}{Car}} entity. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & Json\+Object to be turned into \mbox{\hyperlink{classCar}{Car}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCar_aedbab19a18563e11d57fa593e5162df1}\label{classCar_aedbab19a18563e11d57fa593e5162df1}} 
+\index{Car@{Car}!Car@{Car}}
+\index{Car@{Car}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{Car()}{Car()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Car\+::\+Car (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCar}{Car}} \&}]{car }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+Removing the copy constructor so cars can\textquotesingle{}t be copied. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car} & \mbox{\hyperlink{classCar}{Car}} that was going to be copied. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCar_aac2af3568b3baa238a55f9142598c24d}\label{classCar_aac2af3568b3baa238a55f9142598c24d}} 
+\index{Car@{Car}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Car\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s destination. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s destination. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a0dcaf865938ab1fb49c8389b5e580d90}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_a86b73d3cd225d9d28e8c33e42e572a5d}\label{classCar_a86b73d3cd225d9d28e8c33e42e572a5d}} 
+\index{Car@{Car}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object Car\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s details. 
+
+\begin{DoxyReturn}{Returns}
+Returns \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s details via Json Object. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a97c799400ce05e2ff2566adc4d7b9634}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_ab75977e98e1265cd6dd391dfe3203886}\label{classCar_ab75977e98e1265cd6dd391dfe3203886}} 
+\index{Car@{Car}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Car\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s direction. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s direction. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_aa99a8fef8b22195a5113c38ef51f086d}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_a15bfb55a579f0a11f18fa339680baece}\label{classCar_a15bfb55a579f0a11f18fa339680baece}} 
+\index{Car@{Car}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Car\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Returns the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s position. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s position. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a9bc32587aab91761fc0e718612498199}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_a4fb5c6e642d6a70d3a9fcc1012d4e561}\label{classCar_a4fb5c6e642d6a70d3a9fcc1012d4e561}} 
+\index{Car@{Car}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float Car\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Returns \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s speed. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s speed. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a6520d2b1dc71d092bab38ef9f5cc9ff4}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_a090e9a581dbfc749505eea0ec67fa6c7}\label{classCar_a090e9a581dbfc749505eea0ec67fa6c7}} 
+\index{Car@{Car}!operator=@{operator=}}
+\index{operator=@{operator=}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCar}{Car}}\& Car\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCar}{Car}} \&}]{car }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+Removing the assignment operator so cars can\textquotesingle{}t be copied. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car} & \mbox{\hyperlink{classCar}{Car}} that was going to be copied. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address for \mbox{\hyperlink{classCar}{Car}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCar_ac3f99ecb6c9ff631414987032320446d}\label{classCar_ac3f99ecb6c9ff631414987032320446d}} 
+\index{Car@{Car}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void Car\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s destination. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & Destination to set for \mbox{\hyperlink{classCar}{Car}}. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_aa473000823f673e9d7b89aed3cd3fc5c}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_ad50dda9150d3e00185be0997277e940b}\label{classCar_ad50dda9150d3e00185be0997277e940b}} 
+\index{Car@{Car}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void Car\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & Direction to set for \mbox{\hyperlink{classCar}{Car}}. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a64bfaa448a929ca71693ff3e2edb9d97}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_a73dfbd1e8575d4bcae8581b7abfdd99a}\label{classCar_a73dfbd1e8575d4bcae8581b7abfdd99a}} 
+\index{Car@{Car}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Car\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & Position to set \mbox{\hyperlink{classCar}{Car}} to. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_af0475048b09dc13ed6cf8e7c7be2ae6b}{I\+Entity}}.
+
+\mbox{\Hypertarget{classCar_aa9dde801228bdec170224a31f4b66b34}\label{classCar_aa9dde801228bdec170224a31f4b66b34}} 
+\index{Car@{Car}!Update@{Update}}
+\index{Update@{Update}!Car@{Car}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Car\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})}
+
+
+
+Updates the \mbox{\hyperlink{classCar}{Car}}\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & Change in speed. \\
+\hline
+{\em scheduler} & Scheduler. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/wencl010/\+Code/csci-\/3081w-\/f22/\+Team-\/001-\/11-\/homework04/libs/transit/include/Car.\+h\item 
+/home/wencl010/\+Code/csci-\/3081w-\/f22/\+Team-\/001-\/11-\/homework04/libs/transit/src/Car.\+cc\end{DoxyCompactItemize}

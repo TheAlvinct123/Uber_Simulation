@@ -1,0 +1,4 @@
+<map id="CelebrationDecorator" name="CelebrationDecorator">
+<area shape="rect" id="node1" title="CelebrationDecorator class used to to give celebration behavior to IEntities." alt="" coords="5,95,167,121"/>
+<area shape="rect" id="node2" href="$classIStrategy.html" title="This class is the base class from which all other strategy classes inherit from." alt="" coords="45,5,127,32"/>
+</map>

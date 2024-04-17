@@ -1,0 +1,10 @@
+<map id="IStrategy" name="IStrategy">
+<area shape="rect" id="node1" title="This class is the base class from which all other strategy classes inherit from." alt="" coords="331,5,412,32"/>
+<area shape="rect" id="node2" href="$classAstarStrategy.html" title="this class inherits from the IStrategy class and is responsible for generating the Astar Strategy tha..." alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node3" href="$classBeelineStrategy.html" title="this class inherits from the IStrategy class and is responsible for generating the beeline that the d..." alt="" coords="140,80,267,107"/>
+<area shape="rect" id="node4" href="$classCelebrationDecorator.html" title="CelebrationDecorator class used to to give celebration behavior to IEntities." alt="" coords="291,80,452,107"/>
+<area shape="rect" id="node7" href="$classDfsStrategy.html" title="this class inherits from the IStrategy class and is responsible for generating the Dfs Strategy that ..." alt="" coords="477,80,575,107"/>
+<area shape="rect" id="node8" href="$classDijkstraStrategy.html" title="this class inherits from the IStrategy class and is responsible for generating the Dijkstra Strategy ..." alt="" coords="599,80,727,107"/>
+<area shape="rect" id="node5" href="$classJumpDecorator.html" title="JumpDecorator class used to to give jump behavior to IEntities." alt="" coords="241,155,360,181"/>
+<area shape="rect" id="node6" href="$classSpinDecorator.html" title="SpinDecorator class used to to give spin behavior to IEntities." alt="" coords="385,155,499,181"/>
+</map>

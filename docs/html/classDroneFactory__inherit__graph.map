@@ -1,0 +1,4 @@
+<map id="DroneFactory" name="DroneFactory">
+<area shape="rect" id="node1" title="DroneFactory class used to produce Drones." alt="" coords="7,80,116,107"/>
+<area shape="rect" id="node2" href="$classIEntityFactory.html" title="IEntityFactory class used to produce IEntities." alt="" coords="5,5,117,32"/>
+</map>
